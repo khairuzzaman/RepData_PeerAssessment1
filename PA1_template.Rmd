@@ -150,7 +150,7 @@ plot <- ggplot(data_factorized, aes(x = interval, y = avg_step_perday)) +
   ggtitle("5-minute interval Vs Steps Taken Per Day") +
   theme(plot.title = element_text(hjust = 0.5))
 
-png(file = "instructions_fig/weekday_weekend_comparison.png")
+png(file = "figure/weekday_weekend_comparison.png")
 print(plot)
 dev.off()
     
